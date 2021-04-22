@@ -15,7 +15,7 @@ public class Lista {
     }
     public void PrintLista(){
         Nodo aux;
-        System.out.println("\n Lista: ");
+        System.out.println("\n Lista: \nFim");
         for(aux=prim;aux!=null;aux=aux.getProx()){
             System.out.printf(" %d ",aux.getInfo());
         }
